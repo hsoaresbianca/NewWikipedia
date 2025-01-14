@@ -4,41 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>New Wikipedia</title>
+    
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <!-- Header and Navigation -->
+    <div class="header-nav-container">
+        <!-- Header -->
+        <header>
+            <h1>New Wikipedia</h1>
+        </header>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
+        <!-- Navigation -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#overview">Overview</a>
+            <a href="#plot">Plot</a>
+            <a href="#characters">Characters</a>
+        </nav>
     </div>
+    <!-- Main Content -->
+    <main>
+        <section id="home"></section>
+        <!-- Banner img -->
+        <section id="banner">
+            <img src="./assets/images/game-of-thrones.jpg" alt="Game of Thrones Banner">
+        </section>
+        
+        <!-- Title -->
+        <section id="title">
+            <h1>Game of Thrones</h1>
+        </section>
+        
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>
+                <strong>Game of Thrones</strong> is a fantasy drama television series based on the novel series
+                <em>A Song of Ice and Fire</em> by George R. R. Martin. The show first premiered on HBO in 2011 and
+                concluded in 2019.
+            </p>
+        </section>
 
-    <div class="bar"></div>
+        <!-- Plot Section -->
+        <section id="plot">
+            <h2>Plot</h2>
+            <p>
+                The story takes place in the fictional continents of Westeros and Essos, where noble families fight for
+                control of the Iron Throne.
+                The series is known for its complex characters, intricate plotlines, and shocking twists.
+            </p>
+        </section>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+        <!-- Characters Section -->
+        <section id="characters" class="character-list">
+            <h2>Characters</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li>Jon Snow</li>
+                <li>Daenerys Targaryen</li>
+                <li>Tyrion Lannister</li>
+                <li>Cersei Lannister</li>
+                <li>Sansa Stark</li>
+                <li>Arya Stark</li>
             </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div>
+            <h3>New Wikipedia</h3>
+            <p>A Modern Retelling of the Iconic Wikipedia Page</p>
         </div>
-
-        <div class="main">
-            
+            <!-- Footer Navigation -->
+        <div class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#overview">Overview</a>
+            <a href="#plot">Plot</a>
+            <a href="#characters">Characters</a>
         </div>
+    </footer>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="footer">
-
-    </div>
 </body>
+
 </html>
