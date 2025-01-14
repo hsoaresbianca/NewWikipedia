@@ -1,5 +1,5 @@
-# New Wikipedia
-- Recriando o site Wikipedia com um layout moderno;
+# Nova Wikipédia
+- Recriando a página sobre a série Game of Thrones do site Wikipédia
 
-## Tecnologias
+## Tecnologias Utilizadas
 - HTML e CSS
