@@ -149,6 +149,14 @@ footer {
   margin-bottom: 10px;
 }
 
+#footer p a {
+    color: #bbb;
+}
+
+#footer p a:hover {
+    color: #ffd700;
+}
+
 /* Footer Navigation */
 .footer-nav {
   display: flex;
